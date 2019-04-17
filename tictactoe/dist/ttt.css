@@ -1,0 +1,34 @@
+.square {
+  box-sizing: border-box;
+  background-color: orangered;
+  width: 310px;
+  height: 310px;
+  border: 5px solid black;
+}
+
+.square:hover {
+  background-color: aquamarine;
+}
+
+.clicked {
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 250px;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clicked:hover {
+  background-color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  list-style: none;
+  border: 5px solid black;
+  padding: 0px;
+}
